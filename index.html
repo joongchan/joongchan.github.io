@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>My Project</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script>
+<title>20_[제출용,_19사본동일하되_명칭수정,SKT]_LSTM,_Prophet,_ARIMA_주가예측</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script>
 (function() {
   function addWidgetsRenderer() {
     var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
@@ -15367,14 +15367,18 @@ Epoch 5/5
 
 </div>
 
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="MSE,-RMSE-&#49328;&#52636;">MSE, RMSE &#49328;&#52636;<a class="anchor-link" href="#MSE,-RMSE-&#49328;&#52636;">&#182;</a></h2>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># MSE 및 RMSE 산출</span>
-<span class="n">mse</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">predictions</span><span class="o">-</span><span class="n">y_test</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mse</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">predictions</span><span class="o">-</span><span class="n">y_test</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
 <span class="n">rmse</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">predictions</span><span class="o">-</span><span class="n">y_test</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">mse</span><span class="p">,</span> <span class="n">rmse</span>
 </pre></div>
@@ -16951,7 +16955,7 @@ memory usage: 38.2 KB
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>하기 그래프 설명</strong></p>
+<p><strong>아래 그래프 설명</strong></p>
 <ul>
 <li>yhat : the predicted forecast</li>
 <li><p>yhat_lower : the lower border of the prediction</p>
@@ -17020,7 +17024,7 @@ memory usage: 38.2 KB
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>아래의 그래프 설명</strong></p>
+<p><strong>아래 그래프 설명</strong></p>
 <ul>
 <li>A Trending data</li>
 <li><p>Black dots : the actual data points in our dataset.</p>
@@ -17193,9 +17197,9 @@ memory usage: 38.2 KB
 
 
 
-<div id="34422b44-67e1-4421-831e-9ce79f3a7059" class="jupyter-widgets jp-OutputArea-output ">
+<div id="5dbde655-eaf7-428d-91d9-7dc0cd393b44" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('34422b44-67e1-4421-831e-9ce79f3a7059');
+var element = document.getElementById('5dbde655-eaf7-428d-91d9-7dc0cd393b44');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "adafe6c2582b47948f77b8c28561cb47", "version_major": 2, "version_minor": 0}
@@ -18831,6 +18835,11 @@ Strong evidence against the null hypothesis(H0), reject the null hypothesis,i.e.
 </div>
 </div>
 
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="MSE,-RMSE-&#49328;&#52636;">MSE, RMSE &#49328;&#52636;<a class="anchor-link" href="#MSE,-RMSE-&#49328;&#52636;">&#182;</a></h2>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
